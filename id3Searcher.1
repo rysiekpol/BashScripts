@@ -1,0 +1,75 @@
+./" Manpage for id3Searcher
+.hy
+.TH man 1 "04.05.2022" "1.0.1" "Manpage-id3Searcher"
+.SH NAME
+.B id3Searcher
+- searching for mp3 files with certain id3 tags
+and copying these files to directory
+.SH SYNOPSIS
+id3Searcher.sh [-h|v|a|s]
+.SH DESCRIPTION
+To proper working, script needs pip3 installed.
+If not, install it by 
+.B sudo dnf install python3-pip
+
+App can:
+
+\[bu] search for all mp3 files
+
+\[bu] search by directory
+
+\[bu] search by name of song
+
+\[bu] search by author of song
+
+\[bu] search by album of song
+
+\[bu] search by genre of song
+
+\[bu] search by recording date
+
+\[bu] copy all found files to temporary directory
+.SH OPTIONS
+-h - help command which displays all available options
+
+-v - displays version of script
+
+-a - displays author of script
+
+-s - starts searching app
+.SH AUTHOR
+-h Maciej Szefler
+
+-v Maciej Szefler
+
+-a Maciej Szefler
+
+-s Maciej Szefler
+.SH BUGS
+For any found bugs, please contact ma.szefler@gmail.com
+.SH COPYRIGHT
+Licensed under GPL (see /usr/share/common-licenses/GPL for more details # or contact # the Free Software Foundation for a copy)
+.SH FILES
+\[bu] pip
+
+\[bu] eyeD3
+
+\[bu] eyeD3[display-plugin]
+.SH HISTORY
+.PP
+04/05/2022  Maciej Szefler  Added header, help and version control.          
+.PP      								       	  
+02/05/2022  Maciej Szefler  Added main functionality, searching, copying found files to directory.	     		       	
+.PP                                                                              
+31/04/2022  Maciej Szefler  Created template with zenity windows.    
+.SH SEE ALSO
+For more information, please contact: ma.szefler@gmail.com
+
+For those who want to make donation:
+.PP 
+.B Paypal - searcher.id3tag.donations@paypal.com
+.PP 
+.B Skrill - searcher.id3tag.donations@skrill.com
+.PP 
+.B Revolut - searcher.id3tag.donations@revolut.com
+
